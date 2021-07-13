@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/textbox"
+        tools:context=".CallFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="20dp"
+            android:text="To connect, please press the button below..."
+            android:textAlignment="center"
+            android:textColor="@color/purple_500"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="40dp"
+            android:text="Welcome to Chat."
+            android:textAlignment="center"
+            android:textColor="@color/purple_700"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ChatButton"
+            android:layout_width="231dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginRight="75dp"
+            android:layout_marginBottom="500dp"
+            android:text="Go to Chat"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+</FrameLayout>

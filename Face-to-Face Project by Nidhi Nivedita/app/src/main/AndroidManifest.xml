@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projectface_to_face">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjectFacetoFace">
+        <activity android:name=".Activity.CallActivity"></activity>
+        <activity android:name=".Activity.AboutActivity"
+            android:label="About"/>
+        <activity android:name=".Activity.ChatActivity"
+            android:label="Chat"/>
+        <activity android:name=".Activity.ChatMainActivity"
+            android:label="Chat"/>
+        <activity android:name=".Activity.NavigationBottomActivity"
+            android:label="Face-to-Face"/>
+        <activity android:name=".Activity.SetupProfileActivity"
+            android:label="Face-to-Face"/>
+        <activity android:name=".Activity.DashboardActivity"
+            android:label="Face-to-Face"/>
+        <activity android:name=".Activity.SignupActivity"
+           android:label="New Account" />
+        <activity android:name=".Activity.LoginActivity"
+           android:label="Login" />
+        <activity android:name=".Activity.MainActivity"
+            android:label="Face-to-Face">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
