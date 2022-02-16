@@ -54,10 +54,6 @@ public class NavigationBottomActivity extends AppCompatActivity {
                 }
                 return true;
             }
-        });
-
-
-     
-
+        });    
     }
 }
